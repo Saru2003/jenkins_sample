@@ -19,3 +19,5 @@ to Docker Desktop on Host Machine**:
 then add new docker agent template, use docker image like: jenkins/agent:alpine-jdk11, remote file sys root is `/home/jenkins`.
 
 use this template, in the job created, in *restrict where this project can be run*. say, we are running a python script, and dependancy arent met. so, we can create our own image, (https://hub.docker.com/repository/docker/sarvesh20123/jenkinsagent/general), create a new docker agent template, with the image just created, replace the label expression.
+
+<img src="images/Screenshot_20240530_113824.png">
